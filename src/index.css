@@ -1,0 +1,293 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.logo {
+  background-color: #1E202B;
+  height: 130px;
+}
+
+.logo-title {
+  color: white;
+}
+
+.logo-title span {
+  padding-left: 7px;
+}
+
+.logo-title span h6 {
+  margin: 0;
+}
+.category ul{
+  list-style: none;
+}
+.category ul li a h4{
+  color:white;
+  font-size:17px;
+  list-style: none;
+  margin-left:30px;
+}
+.category ul li a:hover{
+  text-decoration: none;
+}
+.login-btn{
+   width:100px;
+   height:50px;
+}
+/* 
+.login-btn:hover{
+  border-color: red;
+  border-radius: 45%;
+
+} */
+
+/* css for Sign Up page  */
+.signup-page{
+  width:auto;
+  height:700px;
+  background-color:#323544;
+}
+
+.page-body{
+  width:400px;
+  color:white;
+  height:650px;
+  /* text-align: center; */
+  font-family: 'roboto' , sans-serif;
+  background-color:#1E202B;
+}
+.sign-icon{
+ 
+  color:white;
+  font-size:50px;  
+  margin-top:10px;
+}
+
+input{
+  border: none;
+  width: 250px;
+  outline: none;
+}
+
+.eye-icon{
+  cursor: pointer;
+  float:right;
+  margin-right: 15px;
+  position: relative;
+  bottom: 25px;
+  color:black;
+}
+
+/* BodyPart */
+
+.topbar {
+  background:url("./Backgroundimg.PNG");
+  background-position: center;
+  background-size: cover;
+  height: 420px;
+}
+
+.search-div {
+  background-color: #1E202B;
+  border-radius: 35px;
+  padding: 9px;
+  height: 60px;
+}
+
+.search-div input {
+  background-color: #1E202B !important;
+  font-size: 18px;
+  border: none;
+  padding: 10px 20px;
+  flex-grow: 2;
+  color: white !important;
+  border-radius: 25px;
+}
+
+.search-div input:focus {
+  box-shadow: none;
+}
+
+.search-div button {
+  font-size: 20px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  padding: 8px 30px;
+  font-weight: 600;
+}
+
+
+.mon-top {
+  padding: 10px;
+  border: none;
+  height: 50px;
+  background-color: #2D303D;
+  color: white;
+  justify-content: space-between;
+  font-size: 19px;
+}
+
+.mon-weather {
+  color: white;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  background-color: #323544;
+}
+
+.mon-weather h2 {
+  padding-left: 20px;
+  padding-top: 35px;
+}
+
+.mon-weather p {
+  font-size: 70px;
+  font-weight: 400;
+  padding-left: 20px;
+  /* padding-top: 10px; */
+  margin: 0;
+}
+
+.mon-weather img {
+  width: 120px;
+  height: 50px;
+
+}
+
+.days-name {
+  padding: 10px;
+  border: none;
+  height: 50px;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  border: none;
+  outline: 0;
+}
+.days-odd{
+  background-color: #2D303D;
+}
+.days-even {
+  background-color: #222530;
+}
+
+.tues-weather {
+  color: white;
+  text-align: center;
+  border: none;
+  outline: 0;
+}
+
+.tues-weather img {
+  padding-top: 38px;
+}
+
+.tues-weather h4 {
+  padding-top: 25px;
+  margin: 0;
+}
+
+.tues-weather p {
+  padding-top: 7px;
+  font-size: 20px;
+  color: grey;
+}
+.tues-weather span {
+  padding-top: 7px;
+  font-size: 27px;
+ 
+}
+.wed-weather {
+  color: white;
+  text-align: center;
+  border: none;
+  outline: 0;
+}
+
+.section {
+  background-color: #1E202B;
+}
+
+.sub-section {
+  position: relative;
+  bottom: 130px;
+}
+
+.wed-weather img {
+  padding-top: 35px;
+}
+
+.wed-weather h3 {
+  padding-top:18px;
+  margin: 0;
+  
+}
+
+.wed-weather p {
+  padding-top: 7px;
+  font-size: 27px;
+  color: grey;
+}
+.wed-weather span{
+  padding-top: 7px;
+  font-size: 27px;
+}
+.sub-section .col-lg-8>div {
+  flex-grow: 2;
+}
+
+.sub-section .col-lg-4>div:last-child {
+  background-color: #323544;
+}
+
+.sub-section .col-lg-8>div:nth-child(odd) {
+  background-color: #262936;
+}
+
+.sub-section .col-lg-8>div:nth-child(even) {
+  background-color: #323544;
+}
+
+.weather-icon {
+  display: flex;
+}
+
+.weather-icon div {
+  padding: 13px;
+  color: white;
+  font-weight: 18px;
+}
+
+.weather-icon div span {
+  padding-left: 4px;
+}
+#today-date{
+  color: white;
+}
+
+@media screen and (max-width: 566px) {
+  .sub-section .col-lg-8 {
+      display: flex;
+      /* margin-top:10px; */
+      flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 566px) {
+  .sub-section .col-lg-8 div {
+      /* background-color: lightgreen; */
+      width: 100%;
+  }
+}
